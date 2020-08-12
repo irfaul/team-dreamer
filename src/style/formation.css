@@ -1,0 +1,60 @@
+.main-container {
+    height: 645px;
+    background-image: url('../assets/field-background.jpg');
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+.content-wrapper{
+    width: 98%;
+}
+
+.player-bar {
+    float: left;
+    width: 60%;
+}
+
+.search-container {
+    margin: 50px 20px 20px 20px;
+    background-color: rgb(2, 3, 20);
+    border-radius: 6px;
+    padding-bottom: 40px;
+}
+
+.search-title {
+    font-weight: 400;
+    padding: 10px;
+}
+
+#searchElement {
+    width: 50%;
+    height: 30px;
+}
+
+.search-container > button {
+    width: 23%;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 16px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.player-draft {
+    float: right;
+    width: 40%;
+    height: 580px;
+    background-color: whitesmoke;
+    color: rgb(2, 2, 43);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(156, 153, 199, 0.5);
+    border-top: 8px solid cornflowerblue;
+    margin: 50px 0px 20px 0px;
+ }
+
+.player-draft p {
+    margin: 10px;
+ }

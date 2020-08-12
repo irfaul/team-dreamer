@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+@import "home.css";
+@import "formation.css";
+@import "footer.css";
+@import "playerlist.css";
+@import "playerdraft.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*responsive website*/
+
+/*untuk tablet*/
+@media all and (max-width: 1000px) {
+
+    .home-container {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 370px;
+        padding-top: 240px;
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .home-container > h1 {
+        font-size: 40px;
+        font-style: italic;
+    }
+    
+    .home-container > p {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .player-bar {
+        width: 45%;
+    }
+
+    .player-draft {
+        width: 55%;
+    }
+
+    #searchElement {
+        width: 60%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .search-container > button {
+        width: 27%;
+        padding: 8px;
+    }
+}
+
+/*untuk smartphone*/
+@media all and (max-width: 670px) {
+
+    .home-container {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 200px;
+        padding-top: 140px;
+        margin-top: 65px;
+        padding-bottom: 25px;
+    }
+
+    .home-container > h1 {
+        font-size: 24px;
+        font-style: italic;
+    }
+    
+    .home-container > p {
+        font-size: 11px;
+        width: auto;
+    }
+
+    .main-container {
+        height: 920px;
+    }
+
+    .content-wrapper{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .player-bar {
+        float: none;
+        width: 100%;
+    }
+
+    .player-list {
+        height: 200px;
+        margin: 5px;
+    }
+
+    .player-draft {
+        float: none;
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    #searchElement {
+        width: 60%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .search-container {
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    .search-container > button {
+        width: 27%;
+        padding: 8px;
+    }
+
+    .player-item {
+        height: 170px;
+        width: 110px;
+        margin: 10px 15px;
+    }
+
+    .image-container img {
+        padding: 5px 5px 0 5px;
+    }
+
+    .player-info {
+        padding: 0 5px;
+    }
+
+    .player-info h2 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .player-info p {
+        font-size: 9px;
+        font-style: italic;
+    }
+
+    .btn {
+        font-size: 9px;
+        margin: 2px 1px;
+        padding: 4px;
+    }
+}
